@@ -36,7 +36,7 @@ class PokemonCard extends StatelessWidget {
   Widget build(BuildContext context) {
     // Tomamos el primer tipo para el color de fondo
     final String primaryType = data["types"][0];
-    final Color bgColor = _getTypeColor(primaryType);
+    final Color bgColor = _getTypeColor(primaryType);//huevos al concre
 
     return GestureDetector(
       // Al tocar la tarjeta, navegamos a la pantalla de detalle
